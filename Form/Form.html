@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stylesheet.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 class="text-center">Student Progress</h1>
+    <p class="text-center"></p>
+    <form action="Form.php" method="get">
+        <table style="width:100%;" class="text-center">
+            <tr ><td><label >Student's Name:-</label></td><td class="text-start"><input type="text" placeholder="Piyush Kumar" name="sname" required/></td></tr>
+            <tr><td><label>Father's Name:-</label></td><td class="text-start"><input type="text" placeholder=".........." name="fname" required/></td></tr>
+            <tr><td><label>Class:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="class" required/></td></tr>
+            <tr><td><label>Roll:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="roll" required/></td></tr>
+            <tr><td colspan="2" class="text-center"><h1>Marks</h1></td></tr>
+            <tr><td><label>Hindi:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="hindi" required/></td></tr>
+            <tr><td><label>English:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="english" required/></td></tr>
+            <tr><td><label>Math:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="math" required/></td></tr>
+            <tr><td><label>Science:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="science" required/></td></tr>
+            <tr><td><label>Urdu:-</label></td><td class="text-start"><input type="number" placeholder="xx" name="urdu" required/></td></tr>
+            <tr><td><input type="reset"/> &nbsp;</td><td class="text-start"><input type="submit"/></td></tr>
+            <tr><td></td></tr>
+        </table>
+
+    </form>
+</body>
+</html>
