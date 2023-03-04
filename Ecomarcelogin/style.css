@@ -1,0 +1,15 @@
+nav 
+{
+    background-color: black;
+    padding: 10px;
+}
+a
+    {
+        margin: 0 130px;
+        font-weight: 700;
+    }
+li
+{
+    font-weight: 700;
+    margin: 0 20px;
+}
